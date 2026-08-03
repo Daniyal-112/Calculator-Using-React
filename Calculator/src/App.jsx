@@ -23,8 +23,7 @@ function App() {
       }
       try {
         const result = eval(diplayResult);
-        const roundedResult = result.toFixed(3);
-        setDisplayResult(roundedResult);
+        setDisplayResult(result);
       } catch {
         setDisplayResult("Error");
       }
