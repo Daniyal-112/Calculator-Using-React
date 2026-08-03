@@ -1,16 +1,69 @@
-# React + Vite
+# React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Calculator** application built with **React** and **Vite**. This project performs basic arithmetic operations including addition, subtraction, multiplication, division, percentage, delete, and clear.
 
-Currently, two official plugins are available:
+The purpose of this project was to practice React fundamentals by building an interactive application using reusable components and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+**Live Website:** *()*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Concepts Used
+
+* Functional Components
+* Props
+* `useState` Hook
+* Component-Based Architecture
+* Event Handling (`onClick`)
+* Conditional Rendering & Logic
+
+## Features
+
+* Basic arithmetic operations (`+`, `-`, `×`, `÷`)
+* Percentage (`%`) calculation
+* Delete (`DE`) button
+* All Clear (`AC`) button
+* Responsive design
+* Read-only display input
+* Interactive button hover effects
+
+## Project Structure
+
+```text
+React Projects
+└─ Calculator
+   ├─ eslint.config.js
+   ├─ index.html
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ README.md
+   ├─ src
+   │  ├─ App.css
+   │  ├─ App.jsx
+   │  ├─ components
+   │  │  ├─ Buttons.jsx
+   │  │  └─ Display.jsx
+   │  └─ main.jsx
+   └─ vite.config.js
+```
+
+## What I Learned
+
+Through this project, I practiced:
+
+* Managing state with the `useState` Hook.
+* Passing data and functions between components using Props.
+* Creating reusable React components.
+* Handling user interactions with event handlers.
+* Building a responsive user interface using CSS.
+
+## Author
+
+**Daniyal Rehman**
