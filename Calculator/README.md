@@ -6,7 +6,7 @@ The purpose of this project was to practice React fundamentals by building an in
 
 ## Live Demo
 
-**Live Website:** [Demo Link](calculator-using-react-ebon.vercel.app)
+**Live Website:** [Demo Link](https://calculator-using-react-ebon.vercel.app)
 
 ## Technologies Used
 
